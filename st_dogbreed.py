@@ -46,7 +46,7 @@ def predict(path: str):
 
 st.title("Dog Breed Classification")
 st.write("""
-🐶🐶🐶 Upload your dog image (or even yourself) to see what breed it is. 🐶🐶🐶
+🐶🐶🐶 Upload your dog image to see what breed it is. 🐶🐶🐶
 """)
 uploaded_file = st.file_uploader("Choose an image...", type=["png", "jpg", "jpeg"])
 if uploaded_file is not None:
